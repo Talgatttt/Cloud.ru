@@ -1,0 +1,9 @@
+replicaCount: 3
+image:
+  repository: your-docker-image  # Замените на имя вашего Docker-образа
+  tag: latest
+author: by Talgat
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8000
